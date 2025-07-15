@@ -1,0 +1,28 @@
+{
+    "name": "superpms/interpreter-swoole-newsletter",
+    "description": "pms swoole-newsletter interpreter",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "stubs/autorun.php",
+            "stubs/const.php"
+        ],
+        "psr-4": {
+            "pms\\": "src/pms/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guest",
+            "email": "kid666@88.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "superpms/framework": "^2.0",
+        "superpms/interpreter-terminal": "^1.0"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^6.0"
+    }
+}
